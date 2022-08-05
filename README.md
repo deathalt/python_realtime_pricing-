@@ -14,5 +14,5 @@ how to use:
 how to use in docker:
 
 1. docker build --pull --rm -f "Dockerfile" -t pricing:latest "."
-2. docker run pricing:latest
+2. docker run -p 8000:8000 pricing:latest
 3. profit
